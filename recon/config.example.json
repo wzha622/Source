@@ -1,0 +1,51 @@
+{
+  "_comment": "复制本文件为 config.json 后填入自己的 key。config.json 已被 .gitignore 忽略，不会误提交。",
+  "fofa": {
+    "key": "",
+    "enabled": false,
+    "size": 100,
+    "note": "https://fofa.info/userInfo 获取 API Key，免费账号需 F 点"
+  },
+  "shodan": {
+    "key": "",
+    "enabled": false,
+    "note": "https://account.shodan.io 获取 API Key，需 membership 才能用查询 API"
+  },
+  "censys": {
+    "token": "",
+    "api_id": "",
+    "api_secret": "",
+    "enabled": false,
+    "note": "Bearer Token 走 v3 Platform（需 Organization）；api_id/secret 走 v2 Legacy（已下线）"
+  },
+  "zoomeye": {
+    "key": "",
+    "enabled": false,
+    "note": "https://www.zoomeye.org/profile"
+  },
+  "quake": {
+    "key": "",
+    "enabled": false,
+    "note": "https://quake.360.net/quake/#/personalInfo"
+  },
+  "hunter": {
+    "key": "",
+    "enabled": false,
+    "note": "https://hunter.how"
+  },
+  "proxy": {
+    "socks5": "",
+    "http": "",
+    "note": "留空则直连。TUN 代理环境建议给目标 IP 配 DIRECT 规则，或直接关 TUN"
+  },
+  "options": {
+    "threads": 30,
+    "timeout": 10,
+    "subdomain_bruteforce": true,
+    "verify_origin": true,
+    "external_port_check_force": false,
+    "internetdb": true,
+    "max_candidates": 200,
+    "reverse_limit": 30
+  }
+}

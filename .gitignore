@@ -1,0 +1,20 @@
+# 运行时产物
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# 扫描结果（含目标情报，不要提交）
+recon/out/
+out/
+*.log
+
+# 真实配置文件（含 API Key，务必不要提交）
+recon/config.json
+.env
+.env.*
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
